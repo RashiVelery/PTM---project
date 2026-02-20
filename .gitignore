@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+
+# Environment variables
+.env
+Backend/.env
+Frontend/ptm-project/.env
+
+# Build folders
+dist/
+build/
+
+# Logs
+logs/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
