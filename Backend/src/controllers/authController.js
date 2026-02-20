@@ -66,8 +66,8 @@ exports.loginUser = async (req, res) => {
         // Token stored in cookies ---
         res.cookie("token", token, {
             httpOnly: true,
-            sameSite: "strict",
-            secure: false
+            sameSite: "None",
+            secure: true
         });
 
         res.status(200).json({
