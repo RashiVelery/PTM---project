@@ -14,7 +14,7 @@ connectDB()
 app.use(express.json());
 app.use(
     cors({
-        origin: "https://ptm-project-n1er.vercel.app",
+        origin: true,
         credentials: true,
     })
 );

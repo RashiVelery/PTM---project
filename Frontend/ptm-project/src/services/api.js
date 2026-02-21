@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "https://ptm-project.onrender.com/",
+  baseURL: "http://localhost:4004/api",
   withCredentials: true, // 🔥 required for cookies
 });
 
